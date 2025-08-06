@@ -409,18 +409,18 @@ ParticleSystem:
         serializedVersion: 2
         key0: {r: 1, g: 0.9647059, b: 0.7647059, a: 1}
         key1: {r: 1, g: 0.8392157, b: 0.8784314, a: 1}
-        key2: {r: 0.78431374, g: 0.627451, b: 1, a: 0}
-        key3: {r: 0.5372549, g: 0.7137255, b: 1, a: 0}
-        key4: {r: 0, g: 0, b: 0, a: 0}
-        key5: {r: 0, g: 0, b: 0, a: 0}
+        key2: {r: 1, g: 0.7529412, b: 0.79607844, a: 0}
+        key3: {r: 1, g: 0.7529412, b: 0.79607844, a: 0}
+        key4: {r: 0.6784314, g: 0.84705883, b: 0.9019608, a: 0}
+        key5: {r: 0.5372549, g: 0.7137255, b: 1, a: 0}
         key6: {r: 0, g: 0, b: 0, a: 0}
         key7: {r: 0, g: 0, b: 0, a: 0}
         ctime0: 0
         ctime1: 13955
-        ctime2: 45875
-        ctime3: 65535
-        ctime4: 0
-        ctime5: 0
+        ctime2: 23824
+        ctime3: 35389
+        ctime4: 51734
+        ctime5: 65535
         ctime6: 0
         ctime7: 0
         atime0: 0
@@ -433,7 +433,7 @@ ParticleSystem:
         atime7: 0
         m_Mode: 0
         m_ColorSpace: 0
-        m_NumColorKeys: 4
+        m_NumColorKeys: 6
         m_NumAlphaKeys: 2
       minGradient:
         serializedVersion: 2
@@ -785,7 +785,7 @@ ParticleSystem:
         m_RotationOrder: 4
     randomizeRotationDirection: 0
     gravitySource: 0
-    maxNumParticles: 10000000
+    maxNumParticles: 100000000
     customEmitterVelocity: {x: 0, y: 0, z: 0}
     size3D: 0
     rotation3D: 0
@@ -845,11 +845,11 @@ ParticleSystem:
   ShapeModule:
     serializedVersion: 6
     enabled: 1
-    type: 10
-    angle: 25
+    type: 4
+    angle: 90
     length: 5
     boxThickness: {x: 0, y: 0, z: 0}
-    radiusThickness: 0.45
+    radiusThickness: 0.1
     donutRadius: 0.2
     m_Position: {x: 0, y: 0, z: 0}
     m_Rotation: {x: 0, y: 0, z: 0}
@@ -932,7 +932,7 @@ ParticleSystem:
     sphericalDirectionAmount: 0
     randomPositionAmount: 0
     radius:
-      value: 1
+      value: 0.1
       mode: 0
       spread: 0
       speed:
@@ -1051,7 +1051,7 @@ ParticleSystem:
     rateOverTime:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 25000
+      scalar: 40000
       minScalar: 10
       maxCurve:
         serializedVersion: 2
@@ -2437,11 +2437,11 @@ ParticleSystem:
         m_RotationOrder: 4
     m_Range: {x: 0, y: 1}
   ForceModule:
-    enabled: 0
+    enabled: 1
     x:
       serializedVersion: 2
-      minMaxState: 0
-      scalar: 0
+      minMaxState: 1
+      scalar: 1
       minScalar: 0
       maxCurve:
         serializedVersion: 2
@@ -2457,7 +2457,7 @@ ParticleSystem:
           outWeight: 0.33333334
         - serializedVersion: 3
           time: 1
-          value: 0
+          value: -0.5200043
           inSlope: 0
           outSlope: 0
           tangentMode: 0
@@ -2493,8 +2493,8 @@ ParticleSystem:
         m_RotationOrder: 4
     y:
       serializedVersion: 2
-      minMaxState: 0
-      scalar: 0
+      minMaxState: 1
+      scalar: 1
       minScalar: 0
       maxCurve:
         serializedVersion: 2
@@ -2546,15 +2546,15 @@ ParticleSystem:
         m_RotationOrder: 4
     z:
       serializedVersion: 2
-      minMaxState: 0
-      scalar: 0
+      minMaxState: 1
+      scalar: 1
       minScalar: 0
       maxCurve:
         serializedVersion: 2
         m_Curve:
         - serializedVersion: 3
           time: 0
-          value: 0
+          value: 1
           inSlope: 0
           outSlope: 0
           tangentMode: 0
@@ -2563,7 +2563,7 @@ ParticleSystem:
           outWeight: 0.33333334
         - serializedVersion: 3
           time: 1
-          value: 0
+          value: 1
           inSlope: 0
           outSlope: 0
           tangentMode: 0
@@ -10454,8 +10454,8 @@ ParticleSystem:
       maxGradient:
         serializedVersion: 2
         key0: {r: 1, g: 1, b: 1, a: 1}
-        key1: {r: 1, g: 0.9647059, b: 0.7647059, a: 1}
-        key2: {r: 1, g: 0.8235294, b: 0.49803922, a: 0}
+        key1: {r: 1, g: 0.84313726, b: 0, a: 1}
+        key2: {r: 1, g: 0.64705884, b: 0, a: 0}
         key3: {r: 0, g: 0, b: 0, a: 0}
         key4: {r: 0, g: 0, b: 0, a: 0}
         key5: {r: 0, g: 0, b: 0, a: 0}
